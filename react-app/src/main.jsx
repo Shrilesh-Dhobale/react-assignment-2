@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client';
 import React from 'react';
-import About from './components/About.jsx';
-import Contact from './components/Contact.jsx';
+import About from './components/about.jsx';
+import Contact from './components/contact.jsx';
 import Home from './components/home.jsx';
 
 
