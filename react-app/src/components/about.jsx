@@ -1,8 +1,10 @@
+import "./About.css";
+
 
 function About() {
   return (
     <>
-      <section>
+      <section className="Intro-container">
         <h2>ℹ️Introduction</h2>
         <ul>
           <li>
@@ -22,9 +24,7 @@ function About() {
         </ul>
       </section>
 
-      <hr />
-
-      <section>
+      <section className="about-container">
         <h2>
           🙋‍♀️About Me
         </h2>
@@ -37,9 +37,7 @@ function About() {
         </ul>
       </section>
 
-      <hr />
-
-      <section>
+      <section className="thoughts-container">
         <h2>
           💭My thoughts
         </h2>

@@ -1,15 +1,18 @@
-
+import "./home.css";
+import images from "../assets/image.jpg";
 function Home() {
-    return (
-        <>
-            <div>
-                <h2>Hello World!</h2>
-            </div>
-            <div>
-                <p>Hi, I’m Maithily Kawale, a student passionate about learning and growing in tech.</p>
-            </div>
-        </>
-    );
+  return (
+    <>
+      <div className="home">
+        <img src={images} className="image"/>
+        <h2>Hello World! 🌍</h2>
+        <p>
+          Hi, I’m <strong>Maithily Kawale</strong>, a student passionate about learning and
+          growing in the world of <span>technology</span>.
+        </p>
+      </div>
+    </>
+  );
 }
 
 export default Home;

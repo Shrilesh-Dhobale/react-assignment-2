@@ -4,7 +4,20 @@ import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 import Home from './components/Home.jsx';
 
+
 function App() {
+  const headingStyle = {
+    textAlign: 'center',
+    color: 'black'
+  };
+
+  const navStyle = {
+    textAlign: 'center',
+    fontSize: '20px',
+    marginBottom: '10px',
+    padding: '10px'
+  };
+  
   const path = window.location.pathname;
   let component;
 
@@ -20,8 +33,8 @@ function App() {
 
   return (
     <>
-      <h1>Welcome to My App</h1>
-      <nav>
+      <h1 style={headingStyle}>Welcome to My App</h1>
+      <nav style={navStyle}>
         <a href="/">Home</a> |{' '}
         <a href="/about">About</a> |{' '}
         <a href="/contact">Contact</a>
